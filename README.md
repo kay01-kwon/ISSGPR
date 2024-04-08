@@ -34,7 +34,7 @@ Rank 1 update.
 - $` A_{t} = R_{t}^T R_{t} `$
 - $` R_{t} = cholesky(A_{t})^{T}`$
 - $` b_{t} = b_{t-1} + \phi y_{t}^T `$
-- $' w_{t} = A_{t}^{-1} `$
+- $` w_{t} = A_{t}^{-1} b_{t} `$
 
 
 ## The predict method
